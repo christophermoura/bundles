@@ -5,6 +5,20 @@ Blogging.tmbundle:
   revision: 
   squash: true
   remote: http://macromates.com/svn/Bundles/trunk/Bundles/Blogging.tmbundle
+Git.tmbundle: 
+  local_branch: braid/git/Git.tmbundle/master
+  type: git
+  revision: 
+  branch: master
+  squash: true
+  remote: git://github.com/timcharper/git-tmbundle.git
+GitHub.tmbundle: 
+  local_branch: braid/git/GitHub.tmbundle/master
+  type: git
+  revision: 
+  branch: master
+  squash: true
+  remote: git://github.com/drnic/github-tmbundle.git
 copy-as-rtf-tmbundle: 
   local_branch: braid/git/copy-as-rtf-tmbundle/master
   type: git
@@ -12,6 +26,26 @@ copy-as-rtf-tmbundle:
   branch: master
   squash: true
   remote: git://github.com/drnic/copy-as-rtf-tmbundle.git
+javascript-unittest-tmbundle: 
+  local_branch: braid/git/javascript-unittest-tmbundle/master
+  type: git
+  revision: 
+  branch: master
+  squash: true
+  remote: git://github.com/drnic/javascript-unittest-tmbundle.git
+Markdown.tmbundle: 
+  local_branch: braid/svn/Markdown.tmbundle
+  type: svn
+  revision: 
+  squash: true
+  remote: http://macromates.com/svn/Bundles/trunk/Bundles/Markdown.tmbundle
+HTML.tmbundle: 
+  local_branch: braid/git/HTML.tmbundle/master
+  type: git
+  revision: 
+  branch: master
+  squash: true
+  remote: git://github.com/drnic/html-tmbundle.git
 ActionScript.tmbundle: 
   local_branch: braid/svn/ActionScript.tmbundle
   type: svn

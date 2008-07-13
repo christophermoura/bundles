@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>Event.simulateHtml(${1:'${2:element}'}, '${3:blur|change|error|focus|load|reset|select|submit|unload}');</string>
+	<key>name</key>
+	<string>Event.simulateHtml</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>tabTrigger</key>
+	<string>simh</string>
+	<key>uuid</key>
+	<string>9E4AE9FB-4204-4236-BCAA-649BC53A16D2</string>
+</dict>
+</plist>
