@@ -59,7 +59,7 @@ ActionScript.tmbundle:
   revision: 
   squash: true
   remote: http://anon:anon@macromates.com/svn/Bundles/trunk/Bundles/ActionScript.tmbundle
-rspec-tmbundle: 
+Rspec.tmbundle: 
   local_branch: braid/git/rspec-tmbundle/master
   type: git
   revision: 
