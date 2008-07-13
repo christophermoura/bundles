@@ -5,6 +5,13 @@ Blogging.tmbundle:
   revision: 
   squash: true
   remote: http://macromates.com/svn/Bundles/trunk/Bundles/Blogging.tmbundle
+copy-as-rtf-tmbundle: 
+  local_branch: braid/git/copy-as-rtf-tmbundle/master
+  type: git
+  revision: 
+  branch: master
+  squash: true
+  remote: git://github.com/drnic/copy-as-rtf-tmbundle.git
 ActionScript.tmbundle: 
   local_branch: braid/svn/ActionScript.tmbundle
   type: svn
