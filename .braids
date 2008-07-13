@@ -1,0 +1,7 @@
+--- 
+ActionScript.tmbundle: 
+  local_branch: braid/svn/ActionScript.tmbundle
+  type: svn
+  revision: 
+  squash: true
+  remote: http://anon:anon@macromates.com/svn/Bundles/trunk/Bundles/ActionScript.tmbundle
