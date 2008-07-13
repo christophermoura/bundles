@@ -26,6 +26,13 @@ GitHub.tmbundle:
   branch: master
   squash: true
   remote: git://github.com/drnic/github-tmbundle.git
+ruby-on-rails-tmbundle: 
+  local_branch: braid/git/ruby-on-rails-tmbundle/master
+  type: git
+  revision: 
+  branch: master
+  squash: true
+  remote: git://github.com/drnic/ruby-on-rails-tmbundle.git
 copy-as-rtf-tmbundle: 
   local_branch: braid/git/copy-as-rtf-tmbundle/master
   type: git
@@ -61,6 +68,13 @@ ActionScript.tmbundle:
   remote: http://anon:anon@macromates.com/svn/Bundles/trunk/Bundles/ActionScript.tmbundle
 Rspec.tmbundle: 
   local_branch: braid/git/rspec-tmbundle/master
+  type: git
+  revision: 
+  branch: master
+  squash: true
+  remote: git://github.com/dchelimsky/rspec-tmbundle.git
+RSpec.tmbundle: 
+  local_branch: braid/git/RSpec.tmbundle/master
   type: git
   revision: 
   branch: master
