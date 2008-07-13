@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>assertUndefined(${1:expr}${2:, '${3:Should be undefined}'});</string>
+	<key>name</key>
+	<string>assertUndefined</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>tabTrigger</key>
+	<string>asu</string>
+	<key>uuid</key>
+	<string>55BE6C21-09AC-4F0C-8873-0C87625F9D22</string>
+</dict>
+</plist>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>Event.simulateMouse(${1:'${2:element}'}, '${3:click|dblclick|mousedown|mousemove|mouseout|mouseover|mouseup}');</string>
+	<key>name</key>
+	<string>Event.simulateMouse</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>tabTrigger</key>
+	<string>simm</string>
+	<key>uuid</key>
+	<string>37F9C10B-D9C2-42CC-9B71-2EDAC9671F75</string>
+</dict>
+</plist>

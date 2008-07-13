@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>assertRaise('${1:exceptionName}', ${2:method}${3:, '${4:Should raise nothing}'});</string>
+	<key>name</key>
+	<string>assertNothingRaise</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>tabTrigger</key>
+	<string>asnr</string>
+	<key>uuid</key>
+	<string>F76DAEE6-27B3-4A52-A06A-13ACF065EB97</string>
+</dict>
+</plist>

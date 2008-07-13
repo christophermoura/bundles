@@ -19,6 +19,13 @@ GitHub.tmbundle:
   branch: master
   squash: true
   remote: git://github.com/drnic/github-tmbundle.git
+javascript-unittest-tmbundle: 
+  local_branch: braid/git/javascript-unittest-tmbundle/master
+  type: git
+  revision: 
+  branch: master
+  squash: true
+  remote: git://github.com/drnic/javascript-unittest-tmbundle.git
 copy-as-rtf-tmbundle: 
   local_branch: braid/git/copy-as-rtf-tmbundle/master
   type: git
@@ -26,6 +33,12 @@ copy-as-rtf-tmbundle:
   branch: master
   squash: true
   remote: git://github.com/drnic/copy-as-rtf-tmbundle.git
+ActionScript.tmbundle: 
+  local_branch: braid/svn/ActionScript.tmbundle
+  type: svn
+  revision: 
+  squash: true
+  remote: http://anon:anon@macromates.com/svn/Bundles/trunk/Bundles/ActionScript.tmbundle
 HTML.tmbundle: 
   local_branch: braid/git/HTML.tmbundle/master
   type: git
@@ -33,9 +46,3 @@ HTML.tmbundle:
   branch: master
   squash: true
   remote: git://github.com/drnic/html-tmbundle.git
-ActionScript.tmbundle: 
-  local_branch: braid/svn/ActionScript.tmbundle
-  type: svn
-  revision: 
-  squash: true
-  remote: http://anon:anon@macromates.com/svn/Bundles/trunk/Bundles/ActionScript.tmbundle
