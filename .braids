@@ -19,13 +19,6 @@ Git.tmbundle:
   branch: master
   squash: true
   remote: git://github.com/timcharper/git-tmbundle.git
-GitHub.tmbundle: 
-  local_branch: braid/git/GitHub.tmbundle/master
-  type: git
-  revision: 
-  branch: master
-  squash: true
-  remote: git://github.com/drnic/github-tmbundle.git
 ruby-on-rails-tmbundle: 
   local_branch: braid/git/ruby-on-rails-tmbundle/master
   type: git
@@ -33,13 +26,13 @@ ruby-on-rails-tmbundle:
   branch: master
   squash: true
   remote: git://github.com/drnic/ruby-on-rails-tmbundle.git
-copy-as-rtf-tmbundle: 
-  local_branch: braid/git/copy-as-rtf-tmbundle/master
+GitHub.tmbundle: 
+  local_branch: braid/git/GitHub.tmbundle/master
   type: git
   revision: 
   branch: master
   squash: true
-  remote: git://github.com/drnic/copy-as-rtf-tmbundle.git
+  remote: git://github.com/drnic/github-tmbundle.git
 javascript-unittest-tmbundle: 
   local_branch: braid/git/javascript-unittest-tmbundle/master
   type: git
@@ -47,12 +40,19 @@ javascript-unittest-tmbundle:
   branch: master
   squash: true
   remote: git://github.com/drnic/javascript-unittest-tmbundle.git
-Markdown.tmbundle: 
-  local_branch: braid/svn/Markdown.tmbundle
+copy-as-rtf-tmbundle: 
+  local_branch: braid/git/copy-as-rtf-tmbundle/master
+  type: git
+  revision: 
+  branch: master
+  squash: true
+  remote: git://github.com/drnic/copy-as-rtf-tmbundle.git
+ActionScript.tmbundle: 
+  local_branch: braid/svn/ActionScript.tmbundle
   type: svn
   revision: 
   squash: true
-  remote: http://macromates.com/svn/Bundles/trunk/Bundles/Markdown.tmbundle
+  remote: http://anon:anon@macromates.com/svn/Bundles/trunk/Bundles/ActionScript.tmbundle
 HTML.tmbundle: 
   local_branch: braid/git/HTML.tmbundle/master
   type: git
@@ -60,12 +60,12 @@ HTML.tmbundle:
   branch: master
   squash: true
   remote: git://github.com/drnic/html-tmbundle.git
-ActionScript.tmbundle: 
-  local_branch: braid/svn/ActionScript.tmbundle
+Markdown.tmbundle: 
+  local_branch: braid/svn/Markdown.tmbundle
   type: svn
   revision: 
   squash: true
-  remote: http://anon:anon@macromates.com/svn/Bundles/trunk/Bundles/ActionScript.tmbundle
+  remote: http://macromates.com/svn/Bundles/trunk/Bundles/Markdown.tmbundle
 rspec-tmbundle: 
   local_branch: braid/git/rspec-tmbundle/master
   type: git
