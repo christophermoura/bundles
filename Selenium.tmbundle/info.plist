@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Selenium</string>
+	<key>ordering</key>
+	<array>
+		<string>696B3D18-3A11-40AD-944C-3F49CC1F6CE4</string>
+		<string>86E353D0-C253-47AA-976B-CD023BFCD1C8</string>
+		<string>3E3310A0-384F-43E6-B336-4DE7E8670A94</string>
+	</array>
+	<key>uuid</key>
+	<string>9E944FCC-1F74-4CD4-BFF6-9F19F1E3670B</string>
+</dict>
+</plist>
