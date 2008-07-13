@@ -1,4 +1,10 @@
 --- 
+Blogging.tmbundle: 
+  local_branch: braid/svn/Blogging.tmbundle
+  type: svn
+  revision: 
+  squash: true
+  remote: http://macromates.com/svn/Bundles/trunk/Bundles/Blogging.tmbundle
 ActionScript.tmbundle: 
   local_branch: braid/svn/ActionScript.tmbundle
   type: svn
