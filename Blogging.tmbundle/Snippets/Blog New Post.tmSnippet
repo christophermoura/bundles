@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>Type: Blog Post (Markdown)
+Blog: ImproveIt
+Title: ${1:title}
+Keywords: ${2:tags}
+Format: markdown
+Pings: Off
+Comments: On
+
+$0</string>
+	<key>name</key>
+	<string>Blog New Post</string>
+	<key>tabTrigger</key>
+	<string>np</string>
+	<key>uuid</key>
+	<string>F288B35B-5768-44D1-AB6F-AFB3B36ACE17</string>
+</dict>
+</plist>
