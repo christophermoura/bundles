@@ -12,6 +12,7 @@ Bundles is the set of Textmate's bundles used in [Improve It][ii].
 ## Authors
 
 [Marcos Tapajós][mt]
+
 [Vinícius Teles][vt]
 
 [![Improve It][logo]][ii]
