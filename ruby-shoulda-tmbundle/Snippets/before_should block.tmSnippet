@@ -3,22 +3,16 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>context "on GET to :${1:show}" do
-  setup do
-    get :$1${2:, :id =&gt; ${3:1}}
-  end
-
-  ${4:should "${5:description}" do
-    $0
-  end}
+	<string>before_should "$1" do
+  $0
 end</string>
 	<key>name</key>
-	<string>context block get</string>
+	<string>before_should block</string>
 	<key>scope</key>
 	<string>source.ruby.rails.shoulda</string>
 	<key>tabTrigger</key>
-	<string>contg</string>
+	<string>bsh</string>
 	<key>uuid</key>
-	<string>4A3A371D-8037-4370-8C81-658A1E355F8F</string>
+	<string>1C1A512C-41C9-4A59-AD99-BFD831E9196B</string>
 </dict>
 </plist>

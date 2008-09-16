@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>load_all_fixtures</string>
+	<string>should_route :${1:get|post|put|delete}, '${2:/posts}'${3:, :controller =&gt; :${4:posts}}${5:, :action =&gt; :${6:create}}${7:, :id =&gt; ${8:1}}</string>
 	<key>name</key>
-	<string>load_all_fixtures</string>
+	<string>should_route</string>
 	<key>scope</key>
 	<string>source.ruby.rails.shoulda</string>
 	<key>tabTrigger</key>
-	<string>laf</string>
+	<string>shr</string>
 	<key>uuid</key>
-	<string>5A44EEB6-CCEE-4715-BE80-27DC488EEB69</string>
+	<string>40F75860-994B-4E9E-9879-97CE97EF1FE3</string>
 </dict>
 </plist>
