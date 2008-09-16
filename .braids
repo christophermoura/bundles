@@ -1,54 +1,55 @@
 --- 
 ruby-haml-tmbundle: 
   squashed: true
-  type: git
   url: git://github.com/douglasjarquin/ruby-haml-tmbundle.git
+  type: git
   branch: master
   remote: braid/git/ruby-haml-tmbundle/master
 Git.tmbundle: 
   squashed: true
   type: git
   url: git://github.com/timcharper/git-tmbundle.git
+  revision: 7180d094e5bb3c7af6f5e265a870f559217f5ddc
   branch: master
   remote: braid/git/Git.tmbundle/master
-GitHub.tmbundle: 
-  squashed: true
-  type: git
-  url: git://github.com/drnic/github-tmbundle.git
-  branch: master
-  remote: braid/git/GitHub.tmbundle/master
-ruby-on-rails-tmbundle: 
-  squashed: true
-  type: git
-  url: git://github.com/drnic/ruby-on-rails-tmbundle.git
-  branch: master
-  remote: braid/git/ruby-on-rails-tmbundle/master
 ruby-shoulda-tmbundle: 
   squashed: true
-  type: git
   url: git://github.com/drnic/ruby-shoulda-tmbundle.git
+  type: git
   branch: master
   remote: braid/git/ruby-shoulda-tmbundle/master
-copy-as-rtf-tmbundle: 
+ruby-on-rails-tmbundle: 
   squashed: true
+  url: git://github.com/drnic/ruby-on-rails-tmbundle.git
   type: git
-  url: git://github.com/drnic/copy-as-rtf-tmbundle.git
   branch: master
-  remote: braid/git/copy-as-rtf-tmbundle/master
+  remote: braid/git/ruby-on-rails-tmbundle/master
+GitHub.tmbundle: 
+  squashed: true
+  url: git://github.com/drnic/github-tmbundle.git
+  type: git
+  branch: master
+  remote: braid/git/GitHub.tmbundle/master
 javascript-unittest-tmbundle: 
   squashed: true
-  type: git
   url: git://github.com/drnic/javascript-unittest-tmbundle.git
+  type: git
   branch: master
   remote: braid/git/javascript-unittest-tmbundle/master
-HTML.tmbundle: 
+copy-as-rtf-tmbundle: 
   squashed: true
+  url: git://github.com/drnic/copy-as-rtf-tmbundle.git
   type: git
-  url: git://github.com/drnic/html-tmbundle.git
   branch: master
-  remote: braid/git/HTML.tmbundle/master
+  remote: braid/git/copy-as-rtf-tmbundle/master
 ActionScript.tmbundle: 
   squashed: true
-  type: svn
   url: http://anon:anon@macromates.com/svn/Bundles/trunk/Bundles/ActionScript.tmbundle
+  type: svn
   remote: braid/svn/ActionScript.tmbundle
+HTML.tmbundle: 
+  squashed: true
+  url: git://github.com/drnic/html-tmbundle.git
+  type: git
+  branch: master
+  remote: braid/git/HTML.tmbundle/master
