@@ -1,63 +1,54 @@
 --- 
 ruby-haml-tmbundle: 
-  local_branch: braid/git/ruby-haml-tmbundle/master
+  squashed: true
   type: git
-  revision: 
+  url: git://github.com/douglasjarquin/ruby-haml-tmbundle.git
   branch: master
-  squash: true
-  remote: git://github.com/douglasjarquin/ruby-haml-tmbundle.git
+  remote: braid/git/ruby-haml-tmbundle/master
 Git.tmbundle: 
-  local_branch: braid/git/Git.tmbundle/master
+  squashed: true
   type: git
-  revision: 
+  url: git://github.com/timcharper/git-tmbundle.git
   branch: master
-  squash: true
-  remote: git://github.com/timcharper/git-tmbundle.git
-ruby-shoulda-tmbundle: 
-  local_branch: braid/git/ruby-shoulda-tmbundle/master
-  type: git
-  revision: 
-  branch: master
-  squash: true
-  remote: git://github.com/drnic/ruby-shoulda-tmbundle.git
-ruby-on-rails-tmbundle: 
-  local_branch: braid/git/ruby-on-rails-tmbundle/master
-  type: git
-  revision: 
-  branch: master
-  squash: true
-  remote: git://github.com/drnic/ruby-on-rails-tmbundle.git
+  remote: braid/git/Git.tmbundle/master
 GitHub.tmbundle: 
-  local_branch: braid/git/GitHub.tmbundle/master
+  squashed: true
   type: git
-  revision: 
+  url: git://github.com/drnic/github-tmbundle.git
   branch: master
-  squash: true
-  remote: git://github.com/drnic/github-tmbundle.git
-javascript-unittest-tmbundle: 
-  local_branch: braid/git/javascript-unittest-tmbundle/master
+  remote: braid/git/GitHub.tmbundle/master
+ruby-on-rails-tmbundle: 
+  squashed: true
   type: git
-  revision: 
+  url: git://github.com/drnic/ruby-on-rails-tmbundle.git
   branch: master
-  squash: true
-  remote: git://github.com/drnic/javascript-unittest-tmbundle.git
+  remote: braid/git/ruby-on-rails-tmbundle/master
+ruby-shoulda-tmbundle: 
+  squashed: true
+  type: git
+  url: git://github.com/drnic/ruby-shoulda-tmbundle.git
+  branch: master
+  remote: braid/git/ruby-shoulda-tmbundle/master
 copy-as-rtf-tmbundle: 
-  local_branch: braid/git/copy-as-rtf-tmbundle/master
+  squashed: true
   type: git
-  revision: 
+  url: git://github.com/drnic/copy-as-rtf-tmbundle.git
   branch: master
-  squash: true
-  remote: git://github.com/drnic/copy-as-rtf-tmbundle.git
-ActionScript.tmbundle: 
-  local_branch: braid/svn/ActionScript.tmbundle
-  type: svn
-  revision: 
-  squash: true
-  remote: http://anon:anon@macromates.com/svn/Bundles/trunk/Bundles/ActionScript.tmbundle
+  remote: braid/git/copy-as-rtf-tmbundle/master
+javascript-unittest-tmbundle: 
+  squashed: true
+  type: git
+  url: git://github.com/drnic/javascript-unittest-tmbundle.git
+  branch: master
+  remote: braid/git/javascript-unittest-tmbundle/master
 HTML.tmbundle: 
-  local_branch: braid/git/HTML.tmbundle/master
+  squashed: true
   type: git
-  revision: 
+  url: git://github.com/drnic/html-tmbundle.git
   branch: master
-  squash: true
-  remote: git://github.com/drnic/html-tmbundle.git
+  remote: braid/git/HTML.tmbundle/master
+ActionScript.tmbundle: 
+  squashed: true
+  type: svn
+  url: http://anon:anon@macromates.com/svn/Bundles/trunk/Bundles/ActionScript.tmbundle
+  remote: braid/svn/ActionScript.tmbundle
