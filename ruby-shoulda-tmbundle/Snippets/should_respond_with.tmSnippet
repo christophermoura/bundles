@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>should_respond_with :${1:response}</string>
+	<string>should_respond_with :${1:success}</string>
 	<key>name</key>
 	<string>should_respond_with</string>
 	<key>scope</key>

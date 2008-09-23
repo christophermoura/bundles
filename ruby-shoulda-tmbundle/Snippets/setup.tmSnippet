@@ -3,14 +3,16 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>should_assign_to :${1:name}${2:, :${3:name}${4:, :${5:name}}}</string>
+	<string>setup do
+	$0
+end</string>
 	<key>name</key>
-	<string>should_assign_to</string>
+	<string>setup</string>
 	<key>scope</key>
 	<string>source.ruby.rails.shoulda</string>
 	<key>tabTrigger</key>
-	<string>shat</string>
+	<string>setup</string>
 	<key>uuid</key>
-	<string>1FB69312-1897-4A64-A7E8-F7B699F871B1</string>
+	<string>645882B7-2BA1-4574-B268-C72716FEF111</string>
 </dict>
 </plist>

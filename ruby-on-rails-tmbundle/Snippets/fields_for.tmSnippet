@@ -3,14 +3,16 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>${TM_RAILS_TEMPLATE_START_RUBY_EXPR}javascript_include_tag ${1::all}${2:, :cache =&gt; ${3:true}}${TM_RAILS_TEMPLATE_END_RUBY_EXPR}</string>
+	<string>${TM_RAILS_TEMPLATE_START_RUBY_INLINE}fields_for :${1:model}, @${2:$1} do |$1|${TM_RAILS_TEMPLATE_END_RUBY_INLINE}
+  $0
+${TM_RAILS_TEMPLATE_END_RUBY_BLOCK}</string>
 	<key>name</key>
-	<string>javascript_include_tag</string>
+	<string>fields_for</string>
 	<key>scope</key>
 	<string>text.html.ruby, text.haml</string>
 	<key>tabTrigger</key>
-	<string>jit</string>
+	<string>fields</string>
 	<key>uuid</key>
-	<string>FEF49C86-9386-405E-A191-684D1C963E3A</string>
+	<string>7C7FC66A-D566-40D3-B9DA-FCEA4EFF98C6</string>
 </dict>
 </plist>

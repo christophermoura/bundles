@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>should_assign_to :${1:name}${2:, :${3:name}${4:, :${5:name}}}</string>
+	<string>Factory.next(:${1:sequence})</string>
 	<key>name</key>
-	<string>should_assign_to</string>
+	<string>Factory.next</string>
 	<key>scope</key>
 	<string>source.ruby.rails.shoulda</string>
 	<key>tabTrigger</key>
-	<string>shat</string>
+	<string>facn</string>
 	<key>uuid</key>
-	<string>1FB69312-1897-4A64-A7E8-F7B699F871B1</string>
+	<string>8750F29F-D945-4349-96A4-5CF0BF217D38</string>
 </dict>
 </plist>
