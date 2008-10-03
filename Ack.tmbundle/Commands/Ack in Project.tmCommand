@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>#!/usr/bin/env ruby -rcgi
+require ENV['TM_BUNDLE_SUPPORT'] + '/environment.rb'
+AckInProject.show_search_dialog do |search_options|
+  AckInProject.present_search(search_options)
+end</string>
+	<key>input</key>
+	<string>none</string>
+	<key>keyEquivalent</key>
+	<string>@A</string>
+	<key>name</key>
+	<string>Ack in Project</string>
+	<key>output</key>
+	<string>showAsHTML</string>
+	<key>uuid</key>
+	<string>E1966FE3-4B65-419A-85CA-4447BC63ECAD</string>
+</dict>
+</plist>

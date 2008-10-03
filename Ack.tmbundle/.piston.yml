@@ -1,0 +1,8 @@
+--- 
+format: 1
+handler: 
+  commit: 45053377cb07111fd82182c83e37e67d337fefe3
+  branch: HEAD
+lock: 
+repository_url: git://github.com/protocool/ack-tmbundle.git
+repository_class: Piston::Git::Repository
