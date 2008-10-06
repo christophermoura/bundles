@@ -1,0 +1,8 @@
+--- 
+format: 1
+handler: 
+  commit: 553327dec15278da6cb171bf2c7af73e34601761
+  branch: HEAD
+lock: 
+repository_url: git://github.com/timcharper/git-tmbundle.git
+repository_class: Piston::Git::Repository
